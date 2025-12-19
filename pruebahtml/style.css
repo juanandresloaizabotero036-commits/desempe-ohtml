@@ -1,0 +1,263 @@
+.nav{
+     display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(255, 251, 251);
+    gap: 40px;
+    height: 75px;
+}
+
+.menu{
+    margin: 30px;
+}
+.men{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.up{
+    margin: 30px;
+}
+.sign{
+     display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.signup{
+     display: inline-block;
+    padding: 5px 10px;
+    background-color: #1f851f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.signup:hover{
+     transform: translateY(-5PX);
+}
+h1{
+    font-size:50px;
+    color: rgb(100, 98, 98);
+}
+
+.heroimg{
+    
+    width: 400px;
+    height: 400px;
+}
+.hero{
+     display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 150px;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1f851f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: transform 0.3s;
+    
+}
+.btn:hover{
+     transform: translateY(-5PX);
+}
+.cap {
+    display: flex;
+   justify-content: space-around;
+    gap: 40px;
+   width: 1200px;
+   margin: auto;
+}
+.h1{
+    text-align: center;
+}
+p{
+    color: gray;
+}
+h2{
+    font-size: 2rem;
+}
+.h2{
+    text-align: center;
+    color: rgb(68, 67, 67);
+    
+}
+
+.sec02{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    margin: auto;
+       
+}
+.sec02 >div{
+    width: 300px;
+  text-align: center;
+  padding: 10px 10px;
+  height: 300px;
+  border-radius: 20px;
+  
+  box-shadow: 3px 3px 3px chocolate;
+  transition: transform 0.3s;
+}
+.sec02 >div:hover{
+    transform: translateY(-5PX);
+}
+.mem{
+    align-items: center;
+}
+.her{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+    padding: 60px;
+    margin-top: 20px;
+}
+.heroim{
+    width: 500px;
+}
+.local{
+    display:flex;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+}
+.local-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.local-grid >div{
+    width: 180px;
+    border-radius: 20px;
+  margin: auto;
+  box-shadow: 3px 3px 3px chocolate;
+  transition: transform 0.3s;
+  text-align: center;
+}
+.local-grid>div:hover{
+     transform: translateY(-5PX);
+}
+.locali{
+    padding: 90px;
+  
+}
+h3{
+    font-size: 2.1rem;
+}
+.women{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    padding: 30px;
+    margin: auto;
+
+}
+.tesla{
+    background-color: rgb(243, 243, 243);
+     display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+.tesla-lista{
+     display: flex;
+   justify-content: center;
+    gap: 40px;
+}
+.position{
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+h4{
+    font-size: 2rem;
+    color: rgb(77, 77, 77);
+}
+.display{
+    margin: top;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    gap: 10px;
+    width: 1000px;
+    
+    }
+.display img{
+    width: 80%;
+}
+
+.text{
+    text-align: center;
+      
+}
+h5{
+    font-size: 3rem;
+    width: 500px;
+    margin: auto;
+}
+.pelle{
+    text-align: center;
+}
+footer{
+    background: rgb(43, 52, 53);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+    
+}
+h6{
+    font-size: 1.5rem;
+}
+footer p{
+    color: white;
+}
+.foot{
+    padding: 60px;
+}
+@media(max-width:768px){
+    .sec02{
+        
+        grid-template-columns: repeat(2,1fr);
+        width: 700px;
+    }
+   .local{
+    flex-direction: column;
+    width: 700px;
+   } 
+    .her{
+        flex-direction: column;
+    }
+    .women{
+        flex-direction: column;
+        width: 600px;
+    }
+    .tesla{
+        grid-template-columns: repeat(1,1fr);
+        width: 600px;
+    }
+    .display{
+        grid-template-columns: repeat(2,1fr);
+        width: 700px;
+    }
+}
+@media(max-width:768px){
+    .hero{
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+        height: auto;
+    }
+}
